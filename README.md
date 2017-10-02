@@ -1,2 +1,3 @@
-# website2.0
-New and improved Website (WIP)
+# FundRequest Website 2.0
+
+Working on a new and improved webiste, currently a work in progress...
