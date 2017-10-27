@@ -1,0 +1,102 @@
+---
+title: COMMUNITY
+pagina: Community
+
+---
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html lang="en">
+
+  {% include head.html %}
+
+  <body>
+      {% include nav.html %}
+    
+    <div id="skrollr-body">
+
+      <div class="parallax-wrapper">
+
+	      <section id="slide-1" class="header header-ctaright">
+	        <div class="bg-image" style="background-image: url('assets/img/header-home.jpg');"
+	        data-top="background-position: 50% 0px;" data-center-bottom="background-position: 50% -50px;" data-top-bottom="background-position: 50% -100px;" data-anchor-target="#slide-1"></div>
+	        <div class="container">
+	          <div class="row">
+	            <div class="col-lg-6 col-md-7 col-sm-8 vertical-align" data-center="opacity: 1" data--200-top="opacity: 0" data-anchor-target="#slide-1 h2">
+                            <h2>COMMUNITY, WHAT’S IN IT FOR YOU?</h2>
+                            <p>As a user and supporter of open source, you want to have an impact on the development of the tools you use. Whether you actively help solve bugs, program new features, or actively participate in discussions on online forums, your input matters.</p>
+                            <br />
+                            <p><a href="#" class='scrolltonext'>Discover what Fundrequest can do for you.</a></p>
+	            </div>
+	          </div>
+	        </div>
+            {% include ctasquare.html %}
+	      </section>
+
+            <section class="text-columns twocolumns slider">
+                <div class="container">
+                    <div class="row first-row">
+                        <div class="col-sm-12 intro">
+                            <h2>WHAT’S IN IT FOR YOU?</h2>
+                            <p>FundRequest wants to give you even more power to participate in open source and the software development community. Our solution allows individual users to fund specific issues, or put a reward on features they want to see implemented.</p>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="points">
+                                <li><b>Reward contributors</b><br/>
+                                Developers get paid for their contributions to open-source and other software projects.</li>
+                                <li><b>Support the community</b><br/>
+                                By funding requests and rewarding individual developers, you also support the open-source and free software communities as a whole.</li>
+                                <li><b>A secure and safe payment</b><br/>
+                                Since FundRequest is built on the Ethereum blockchain and uses open source Smart contracts, mutual trust and a secure transaction are guaranteed.</li>
+                                <li><b>Build the software you want to see</b><br/>
+                                By proposing or funding new features, you have a hand in the development of the software.</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="img-slider">
+                                <li><img src="assets/img/fundrequest-content-about.png" alt="" /></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h2>WHY, WHAT, HOW</h2>
+                            <p>As a user of open source software, you want to see the community of developers thrive, and you want to help out any way you can.</p>
+                            <p>FundRequest is a decentralised and open solution that makes it possible to fund only specific issues that are of value to you. You can issue a reward for any bug you want to see fixed or feature you want to see implemented. This reward goes straight to the developers resolving the issue – without any mediation of a middle man.</p>
+                            <a class="smallBtn" href="{{ site.baseurl }}{% link about.html %}">LEARN MORE</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="howitworks" class="howitworks text-columns">
+                <div class="bg-image" style="background-image: url('assets/img/header-2.png');" data-bottom-top="background-position: right -100px;" data-center-bottom="background-position: right 0px;" data-top-bottom="background-position: right 100px;" data-anchor-target="#howitworks"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h2>HOW TO FUND A REQUEST</h2>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="points">
+                                <li><b>Create a request</b> based on a feature you want to see or a bug you’ve encountered, or find a request that you want to support by adding your fund to the reward.</li>
+                                <li><b>Add your fund</b> to the reward by clicking the “fund button”.</li>
+                                <li>The smart contract registers your account and adds your fund to the reward.</li>
+                                <li>All proposed solutions get evaluated, and <b>the most suitable solution is determined.</b></li>
+                                <li>After the issue is solved, all funds are transferred and the <b>developer gets paid.</b> If no valid solution comes forth, the ticket can be closed, and you can use the “reclaim fund button” to <b>withdraw your fund from the reward.</b></li>
+                            </ul>
+                            <a class="smallBtn" href="{{ site.baseurl }}{% link howitworks.html %}">Learn more</a>
+                        </div>
+                        {% include youtubevid.html %}
+                    </div>
+                </div>
+            </section>
+
+            {% include participate.html %}
+            
+      </div>
+
+      {% include footer.html %}
+
+    </div>
+
+  </body>
+
+</html>

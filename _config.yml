@@ -1,0 +1,12 @@
+# Site settings
+title: FundRequest
+email: your-email@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+  FundRequest 2.0.
+baseurl: "/website2.0" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
+twitter_username: fundrequest_io
+github_username:  FundRequest
+
+# Build settings
+markdown: kramdown

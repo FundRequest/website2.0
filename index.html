@@ -1,0 +1,84 @@
+---
+title: HOMEPAGE
+pagina: Home
+---
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html lang="en">
+
+  {% include head.html %}
+
+  <body>
+      {% include nav.html %}
+    
+    <div id="skrollr-body">
+
+      <div class="parallax-wrapper">
+
+            <section id="slide-1" class="header header-ctaright">
+                <div class="bg-image" style="background-image: url('assets/img/header-home.jpg');" data-top="background-position: 50% 0px;" data-center-bottom="background-position: 50% -50px;" data-top-bottom="background-position: 50% -100px;" data-anchor-target="#slide-1"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-5 col-md-7 col-sm-8 vertical-align" data-center="opacity: 1" data--200-top="opacity: 0" data-anchor-target="#slide-1 h2">
+                            <h2>A marketplace for software development</h2>
+                            <p>FundRequest introduces an easy and secure way to reward bugfixes and feature builds on any project.<br/>More than a monetization platform, FundRequest is a system for custom support that will boost the OS community as a whole – from developer to end user.</p>
+                            <br />
+                            <p><a href="#" class='scrolltonext'>FIND OUT MORE</a></p>
+                        </div>
+                    </div>
+                </div>
+                {% include ctasquare.html %}
+            </section>
+            
+            {% include twocols.html %}
+
+            <section id="slide-2" class="header header-ctaleft notop">
+                <div class="bg-image" style="background-image: url('assets/img/header-2.png');" data-bottom-top="background-position: right -100px;" data-center-bottom="background-position: right 0px;" data-top-bottom="background-position: right 100px;" data-anchor-target="#slide-2"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-offset-6 col-lg-5 col-md-offset-5 col-md-7 col-sm-8 vertical-align" data-center="opacity: 1" data--200-top="opacity: 0" data-anchor-target="#slide-2 h2">
+                            <h2>HOW IT WORKS</h2>
+                            <p>With Fundrequest, you can reward any development issue in just a few clicks:</p><br/>
+                            <ul class="points">
+                                <li>Find a feature or bugfix request, or create a new one yourself</li>
+                                <li>Add your contribution to the reward fund</li>
+                                <li>Whoever comes up with the best solution gets the reward – safe and simple!</li>
+                            </ul>
+                            <a class="smallBtn" href="{{ site.baseurl }}{% link howitworks.html %}">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="hidden-md hidden-sm hidden-xs">
+                    <div class="cta-huls" style="" data-200-top="opacity: 1; transform: rotate(45deg) translate(-150px,-150px);" data-top="opacity: 1; transform: rotate(45deg) translate(-50px,-50px);" data-center-bottom="opacity: 1; transform: rotate(45deg) translate(200px,200px);" data-anchor-target="#slide-2">
+                        <div class="cta-image" style="background-image: url('assets/img/header-2-cta.png'); background-position: -180px top;"></div>
+                    </div>
+                    <a class="youtube playbtn" href="https://www.youtube.com/watch?v=Jnd5W7h3igQ" data-200-top="opacity: 1; transform: translate(0,-200px);" data-top="opacity: 1; transform: translate(0,-50px);" data-center-bottom="opacity: 1; transform: translate(0,300px);" data-anchor-target="#slide-2"><span class="icon-play"></span></a>
+                </div>
+                <div class="hidden-lg">
+                    <div class="cta-huls" style="">
+                        <div class="cta-image" data-top="background-position: 50% -200px;" data-center-bottom="background-position: 50% -250px;" data-top-bottom="background-position: 50% -300px;" data-anchor-target="#slide-2" style="background-image: url('assets/img/header-2-cta.png'); background-position: -180px top;"></div>
+                    </div>
+                    <a class="youtube playbtn" href="https://www.youtube.com/watch?v=Jnd5W7h3igQ"><span class="icon-play"></span></a>
+                </div>
+            </section>
+            <section class="text-columns onecolumn">
+                <div class="container text-center">
+                    <div class="row vertical-align">
+                        <div class="col-lg-offset-2 col-lg-8 col-sm-12">
+                            <h2>Contribute</h2>
+                            <p>Join our community and get whitelisted for our next ICO on 20.11.2017</p>
+                            <a class="smallBtn" href="https://goo.gl/4bESsj" target='_blank'>Get whitelisted</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+      
+      </div>
+
+      {% include footer.html %}
+
+    </div>
+
+  </body>
+
+</html>

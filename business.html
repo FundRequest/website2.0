@@ -1,0 +1,103 @@
+---
+title: BUSINESS
+pagina: Business
+
+---
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html lang="en">
+
+  {% include head.html %}
+
+  <body>
+      {% include nav.html %}
+    
+    <div id="skrollr-body">
+
+      <div class="parallax-wrapper">
+
+	      <section id="slide-1" class="header header-ctaright">
+	        <div class="bg-image" style="background-image: url('assets/img/header-home.jpg');"
+	        data-top="background-position: 50% 0px;" data-center-bottom="background-position: 50% -50px;" data-top-bottom="background-position: 50% -100px;" data-anchor-target="#slide-1"></div>
+	        <div class="container">
+	          <div class="row">
+	            <div class="col-lg-6 col-md-7 col-sm-8 vertical-align" data-center="opacity: 1" data--200-top="opacity: 0" data-anchor-target="#slide-1 h2">
+                    <h2>BUSINESS,<br/>WHAT’S IN IT FOR YOU?</h2>
+                    <p>As a business, you want to see improvements made to the software tools you use, but you might not have the budget to cover a full-fledged customer service.</p>
+                    <br />
+                    <p><a href="#" class='scrolltonext'>Discover what Fundrequest can do for you.</a></p>
+	            </div>
+	          </div>
+	        </div>
+            {% include ctasquare.html %}
+	      </section>
+
+           <section class="text-columns twocolumns slider">
+                <div class="container">
+                    <div class="row first-row">
+                        <div class="col-sm-12 intro">
+                            <h2>WHAT’S IN IT FOR YOU?</h2>
+                            <p>FundRequest intends to create a market for projects with high business value but little or no professional customer support. Companies can use FundRequest to build a custom support package, tailored to the needs of their customers - a “Pay-As-You-Fix” model.</p>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="points">
+                                <li><b>A secure and trustworthy payment system</b><br/>
+                                Thanks to the Ethereum blockchain and open source Smart contracts, trust and security are guaranteed.</li>
+                                <li><b> A custom(er) support</b><br/>
+                                FundRequest bridges the gap between a total lack of support, and expensive service on an enterprise level. You only pay for problems that arise, or changes that are on your wishlist.</li>
+                                <li><b>Pay for what you want</b><br/>
+                                By issueing or funding new features, you have an active say in the improvement of your preferred software tools.</li>
+                                <li><b>Support the community</b><br/>
+                                By making sure individual developers get paid, you support the whole open-source and free software communities in one go – which further benefits the development of your favorite office tools.</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="img-slider">
+                                <li><img src="assets/img/fundrequest-content-about.png" alt="" /></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h2>WHY, WHAT, HOW</h2>
+                            <p>As a company that uses open source software, you are probably willing to pay for new features and bugfixes. However, not everyone can afford an expensive subscription for round-the-clock support.</p>
+                            <p>FundRequest is a decentralised and open solution that makes it possible to fund only specific issues that are of value to you. You can issue a reward for any bug you want to see fixed or feature you want to see implemented.</p>
+                            <p>Since we use the Ethereum network as our blockchain backend, FundRequest will be decentralized, secure and failproof.</p>
+                            <a class="smallBtn" href="{{ site.baseurl }}{% link about.html %}">LEARN MORE</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="howitworks" class="howitworks text-columns">
+                <div class="bg-image" style="background-image: url('assets/img/header-2.png');" data-bottom-top="background-position: right -100px;" data-center-bottom="background-position: right 0px;" data-top-bottom="background-position: right 100px;" data-anchor-target="#howitworks"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h2>HOW TO FUND A REQUEST</h2>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="points">
+                                <li><b>Create a request</b> based on a feature you want to see or a bug you’ve encountered.</li>
+                                <li><b>Add a reward</b> to the request by clicking the handy “fund button”.<br/>The amount is sent to the Ethereum blockchain for validation. Then a smart contract is generated for the specific issue.</li>
+                                <li>The smart contract records your account and funding amount, and updates the total balance of the issue request.</li>
+                                <li>All proposed solutions get evaluated, and <b>the most suitable solution is determined.</b></li>
+                                <li>After the issue is solved, the funds are transferred and the <b>developer gets paid.</b> If no valid solution comes forth, the ticket can be closed, and you can use the “reclaim fund button” to <b>withdraw the reward</b>.</li>
+                            </ul>
+                            <a class="smallBtn" href="howitworks">Learn more</a>
+                        </div>
+                        {% include youtubevid.html %}
+                    </div>
+                </div>
+            </section>
+
+            {% include participate.html %}
+            
+      </div>
+
+      {% include footer.html %}
+
+    </div>
+
+  </body>
+
+</html>

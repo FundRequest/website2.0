@@ -1,0 +1,142 @@
+---
+title: HOW IT WORKS
+pagina: How it works
+group: "navigation"
+order: 2
+
+---
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html lang="en">
+
+  {% include head.html %}
+
+  <body>
+      {% include nav.html %}
+    
+    <div id="skrollr-body">
+
+      <div class="parallax-wrapper">
+
+	      <section id="slide-1" class="header header-ctaright">
+	        <div class="bg-image" style="background-image: url('assets/img/header-home.jpg');"
+	        data-top="background-position: 50% 0px;" data-center-bottom="background-position: 50% -50px;" data-top-bottom="background-position: 50% -100px;" data-anchor-target="#slide-1"></div>
+	        <div class="container">
+	          <div class="row">
+	            <div class="col-lg-6 col-md-7 col-sm-8 vertical-align" data-center="opacity: 1" data--200-top="opacity: 0" data-anchor-target="#slide-1 h2">
+                    <h2>QUICK AND EASY</h2>
+                    <p>Funding a Request will only take you a minute. You can issue a reward for any bug you want to see fixed or feature you want to see implemented. This reward goes straight to the developers resolving the issue – without any mediation of a middle man.</p>
+                    <p>FundRequest is built on the blockchain platform Ethereum. This allows a system of “Smart Contracts” to be linked to specific objectives (like GitHub or StackOverflow issues), creating automated contracts that govern the whole transaction.</p>
+                    <br />
+                    <p><a href="#" class='scrolltonext'>Find out how it works.</a></p>
+	            </div>
+	          </div>
+	        </div>
+	        {% include ctasquare.html %}
+	      </section>
+
+ 		<section class="text-columns onecolumn gettingstarted">
+            <div class="container">
+                <div class="row vertical-align">
+                    <div class="col-sm-10">
+                        <h2>FundRequest in 3 easy steps:</h2>
+                        <ul class='points'>
+                            <li>Any user can create a request based on a feature they want to see or a bug they’ve encountered. They can also add a monetary reward to the request. After validation by the Ethereum blockchain, a smart contract is generated for the specific issue.</li>
+                            <li>Any developer can propose a solution to an issue. All proposed solutions get evaluated, and the most suitable solution is determined.</li>
+                            <li>After the issue is solved, all funds are transferred. The developer that came up with the best solution will be notified, and is then able to collect his reward.</li>
+                        </ul>
+                        <div class="row text-center img-row">
+                            <div class="col-sm-4"><img src="assets/img/create.png" alt="Create issue" />
+                                <h3 style="color: #3fa6db;">Create<br />issue</h3></div>
+                            <div class="col-sm-4"><img src="assets/img/fund.png" alt="Fund issue" />
+                                <h3 style="color: #f48b4a;">Fund<br />issue</h3></div>
+                            <div class="col-sm-4"><img src="assets/img/approve.png" alt="Approve solution" />
+                                <h3 style="color: #6fc18c;">Approve<br />solution</h3></div>
+                        </div>
+
+                        <p>Funding any goal or issue will be painless and easy, thanks to an intuitive front-end application for online and mobile use. One of the milestones we've included in our roadmap is the development of a Chrome browser add-on so that you can fund issues on your favorite platform.</p>
+
+                        <p>Still want to find out more? Dig into our <a class="cta-btn" href="https://docs.fundrequest.io/display/PUB/" target='_blank'>Documentation Center</a>
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="values" class="text-columns twocolumns">
+            <div class="bg-image" style="background-image: url('assets/img/bureau.jpg');" data-top="background-position: 50% 0px;" data-center-bottom="background-position: 50% -100px;" data-top-bottom="background-position: 50% -150px;" data-anchor-target="#values"></div>
+            <div class="container text-center">
+                <div class="vertical-align">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h2>PROVIDING VALUE TO</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-offset-1 col-lg-4 col-sm-6 sameHeight">
+                            <h3>Users</h3>
+                            <p>Build the software you want to see, by proposing or funding new features.</p>
+                            <p><a href="{{ site.baseurl }}{% link community.html %}" class='smallBtn'>MORE</a></p>
+                        </div>
+                        <div class="col-lg-offset-2 col-lg-4 col-sm-6 sameHeight">
+                            <h3>Developers</h3>
+                            <p>Get paid for your work on OSS projects, and build your reputation in the community.</p>
+                            <p><a href="{{ site.baseurl }}{% link developer.html %}" class='smallBtn'>MORE</a></p>
+                        </div>
+                        <div class="col-lg-offset-1 col-lg-4 col-sm-6 sameHeight">
+                            <h3>Business</h3>
+                            <p>Create a custom support package, tailored to the needs of your customers.</p>
+                            <p><a href="{{ site.baseurl }}{% link business.html %}" class='smallBtn'>MORE</a></p>
+                        </div>
+                        <div class="col-lg-offset-2 col-lg-4 col-sm-6 sameHeight">
+                            <h3>Software Projects</h3>
+                            <p>Find out what features and issues are important to your community.</p>
+                            <p><a href="{{ site.baseurl }}{% link community.html %}" class='smallBtn'>MORE</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="text-columns threecols whatfor">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h2>YOU CAN USE FUNDREQUEST TO:</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-offset-1 col-md-4 col-sm-6 sameHeight">
+                        <img src="assets/img/support.png" alt="Support communities" />
+                        <h3>Support the community</h3>
+                        <p>Anyone can fund requests for their favorite open source projects, accelerating their development.</p>
+                    </div>
+                    <div class="col-md-offset-2 col-md-4 col-sm-6 sameHeight">
+                        <img src="assets/img/reward.png" alt="Reward contributors" />
+                        <h3>Reward contributors</h3>
+                        <p>Reward developers for their contributions to open-source projects.</p>
+                    </div>
+                    <div class="col-md-offset-1 col-md-4 col-sm-6 sameHeight">
+                        <img src="assets/img/accelerate.png" alt="Accelerate development" />
+                        <h3>Find out what’s popular</h3>
+                        <p>Developers can find out what issues are most important to the community.</p>
+                    </div>
+                    <div class="col-md-offset-2 col-md-4 col-sm-6 sameHeight">
+                        <img src="assets/img/measure.png" alt="Measure community intrest" />
+                        <h3>Build the software according to your needs</h3>
+                        <p>By proposing or funding new features, you actively participate in the development of the software.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+		{% include participate.html %}
+      
+      </div>
+
+      {% include footer.html %}
+
+    </div>
+
+  </body>
+
+</html>

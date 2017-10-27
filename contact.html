@@ -1,0 +1,66 @@
+---
+title: CONTACT
+pagina: Contact
+
+---
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html lang="en">
+
+  {% include head.html %}
+
+  <body>
+      {% include nav.html %}
+    
+    <div id="skrollr-body">
+
+      <div class="parallax-wrapper">
+
+	      <section class="contactform">
+	      	<div class="container">
+	      		<div class="row vertical-align">
+	      			<div class="col-lg-offset-2 col-lg-8 col-md-offset-1 col-md-10 col-sm-12">
+	      				<h2 class="text-center">Contact us</h2>
+	      					
+	      					<div class="row thankyou">
+									<div class="col-sm-12">
+										<p>Thank you for contacting us.<br/>We will try to get back to you as soon as possible.<br/><br/>Greetings,<br/>The Fundrequest Team.</p>
+									</div>
+							</div>
+
+	      					<form action="https://www.enformed.io/vs3mbtjg" method="POST" id="contactForm">
+								<div class="row">
+									<div class="col-sm-6">
+										<input id="firstname" name="firstname" type="text" required class="span3" placeholder="Firstname *"> 
+									</div>
+									<div class="col-sm-6">
+										<input id="name" name="name" type="text" class="span3" required placeholder="Name *"> 
+									</div>
+									<div class="col-sm-12">
+										<input id="email" name="email" type="email" class="span3" required placeholder="Email *">
+									</div>
+									<div class="col-sm-12">
+										<textarea id="message" name="message" class="span6" required placeholder="Message *" rows="5"></textarea>
+									</div>
+									<div class="col-sm-12">
+										<input type="hidden" name="*honeypot" />
+										<input type="hidden" name="*default_email" value="contact@fundrequest.io" />
+										<input id="contact-submit" type="submit" value="SEND" class="btn btn-primary input-medium pull-right">
+									</div>
+								</div>
+	      					</form>
+	      				</p>
+	      			</div>
+	      		</div>
+	      	</div>
+	      </section>
+      
+      </div>
+
+      {% include footer.html %}
+
+    </div>
+
+  </body>
+
+</html>

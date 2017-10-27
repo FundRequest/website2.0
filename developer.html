@@ -1,0 +1,104 @@
+---
+title: DEVELOPER
+pagina: Developer
+
+---
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html lang="en">
+
+  {% include head.html %}
+
+  <body>
+      {% include nav.html %}
+    
+    <div id="skrollr-body">
+
+      <div class="parallax-wrapper">
+
+	      <section id="slide-1" class="header header-ctaright">
+	        <div class="bg-image" style="background-image: url('assets/img/header-home.jpg');"
+	        data-top="background-position: 50% 0px;" data-center-bottom="background-position: 50% -50px;" data-top-bottom="background-position: 50% -100px;" data-anchor-target="#slide-1"></div>
+	        <div class="container">
+	          <div class="row">
+	            <div class="col-lg-6 col-md-7 col-sm-8 vertical-align" data-center="opacity: 1" data--200-top="opacity: 0" data-anchor-target="#slide-1 h2">
+	                <h2>Developer,<br />What's in it for you?</h2>
+                    <p>As an open-source developer, you commit a considerable amount of your free time to build software for the community. Why not get rewarded for your time and effort?</p>
+                    <br />
+                    <p><a href="#" class='scrolltonext'>Discover what Fundrequest can do for you.</a></p>
+	            </div>
+	          </div>
+	        </div>
+            {% include ctasquare.html %}
+	      </section>
+
+            <section class="text-columns twocolumns slider">
+                <div class="container">
+                    <div class="row first-row">
+                        <div class="col-sm-12 intro">
+                            <h2>WHAT’S IN IT FOR YOU?</h2>
+                            <p>With FundRequest, it becomes easy to reap a reward for your contributions, solutions and bugfixes on any open source software project.</p>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="points">
+                                <li><b>Be rewarded</b><br/>
+                                Get paid for the work that you deliver on open source and other software projects.</li>
+                                <li><b>A secure and safe payment</b><br/>
+                                Since FundRequest is built on the Ethereum blockchain and uses open source Smart contracts, mutual trust and a secure transaction are guaranteed.</li>
+                                <li><b>Find out what’s popular</b><br/>
+                                Get a better grip on the features the community is most interested in seeing improved.</li>
+                                <li><b>Build your reputation</b><br/>
+                                Deliver good work, and see your status rise in the community through our reputation system.</li>
+                                <li><b>Support the good cause</b><br/>
+                                Don't care about the reward? You’ll have the option to donate to your favorite charity.</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="img-slider">
+                                <li><img src="assets/img/fundrequest-content-about.png" alt="" /></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h2>WHY, WHAT, HOW</h2>
+                            <p>We at FundRequest believe that blockchain technology and smart contracts can help us cut the middle men and evolve to a decentralized society where developers can reap the benefits of their work and where companies pay only for the support and development they need.</p>
+                            <p>To this end, we have built FundRequest on the cryptocurrency platform Ethereum. One of Ethereum’s key features is a system of “Smart Contracts”. This enables us to program contractual requirements that are partially or fully self-executing – an automated “if-then” clause, if you will.</p>
+                            <a class="smallBtn" href="{{ site.baseurl }}{% link about.html %}">LEARN MORE</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="howitworks" class="howitworks text-columns">
+                <div class="bg-image" style="background-image: url('assets/img/header-2.png');" data-bottom-top="background-position: right -100px;" data-center-bottom="background-position: right 0px;" data-top-bottom="background-position: right 100px;" data-anchor-target="#howitworks"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h2>HOW TO SOLVE A REQUEST (and get paid)</h2>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="points">
+                                <li><b>Find a funded request</b></li>
+                                <li><b>Propose your solution</b><br/>You can resolve an issue by either providing the best answer, bug fix or solution.</li>
+                                <li><b>Your resolution gets evaluated and the most suitable solution is determined.</b><br>The contributor who offered the best solution will be notified, and is then able to collect his reward.</li>
+                                <li>After a check through the Smart Contract, you can <b>claim your reward.</b></li>
+                                <li>The funds are transferred and <b>you get paid.</b></li>
+                            </ul>
+                            <a class="smallBtn" href="{{ site.baseurl }}{% link howitworks.html %}">Learn more</a>
+                        </div>
+                        {% include youtubevid.html %}
+                    </div>
+                </div>
+            </section>
+
+            {% include participate.html %}
+            
+      </div>
+
+      {% include footer.html %}
+
+    </div>
+
+  </body>
+
+</html>

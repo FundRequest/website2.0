@@ -1,0 +1,83 @@
+---
+title: ABOUT
+pagina: About
+group: "navigation"
+order: 1
+
+---
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html lang="en">
+
+  {% include head.html %}
+
+  <body>
+      {% include nav.html %}
+    
+    <div id="skrollr-body">
+
+      <div class="parallax-wrapper">
+      	<section id="slide-1" class="header header-ctaright">
+            <div class="bg-image" style="background-image: url('assets/img/header-home.jpg');" data-top="background-position: 50% 0px;" data-center-bottom="background-position: 50% -50px;" data-top-bottom="background-position: 50% -100px;" data-anchor-target="#slide-1"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-7 col-sm-8 vertical-align" data-center="opacity: 1" data--200-top="opacity: 0" data-anchor-target="#slide-1 h2">
+                            <h2>ABOUT FUNDREQUEST</h2>
+                            <p>FundRequest represents a whole new approach to open-source development, with a transaction system that empowers users and rewards developers. Everybody wins!</p>
+                            <br />
+                            <p><a href="#" class='scrolltonext'>Find out the basics.</a></p>
+                        </div>
+                    </div>
+                </div>
+                {% include ctasquare.html %}
+            </section>
+            <section class="text-columns twocolumns slider">
+                <div class="container">
+                    <div class="row first-row">
+                        <div class="col-sm-12 intro">
+                            <h2>WHAT IS FUNDREQUEST?</h2>
+                            <p>FundRequest is a monetization platform built on blockchain technology, that allows anybody to fund open issues on any open source project in a fast and easy way. Funding a request takes only a minute, and doesn’t require any coding skills.</p>
+                            <p>With FundRequest, any user can create a contractual reward to solve a problem, fix a bug or implement a feature. Funds are allocated to a specific issue, and when a developer solves the problem or develops the feature, he/she receives the reward.</p>
+                            <p>At first, FundRequest will be integrating with Github and Stack Exchange, but our goal is to evolve into a system that can be used to fund and reward any community platform.</p>
+                            <p>Still want to find out more? <a href='https://docs.fundrequest.io/display/PUB/Whitepaper' target='_blank'>Read the FundRequest White Paper</a></p>
+
+                        </div>
+                    </div>
+                    <div class="row first-row">
+                        <div class="col-md-12">
+                            <h2>HOW WE MAKE THE DIFFERENCE</h2>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="points">
+                                <li>A <b>talented and complementary team of developers</b>, surrounded by highly skilled advisors and collaborators with extensive experience in the cryptocurrency community.</li>
+                                <li>A <b>fresh incentive for open source development</b>: currently, the only motivation to work on OSS is resume building and the collaborative effort. FundRequest creates a whole new market where organisations can reward OSS contributors.</li>
+                                <li><b>Built on Ethereum.</b> Since we use the Ethereum network as our blockchain backend, FundRequest will be decentralized, completely secure and failproof.</li>
+                                <li>A <b>quick and easy system of funding</b>, with an intuitive front-end application for online and mobile use of the FundRequest service. One of the milestones we've included in our roadmap is the development of a browser add-on.</li>
+                                <li>An implemented <b>Reputation system for developers</b>. We intend to integrate a dynamic profile for every developer, logging their individual contributions and earnings, as well as a status leaderboard.</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="img-slider">
+                                <li><img src="assets/img/fundrequest-content-about.png" alt="" /></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h2>HOW IT WORKS</h2>
+                            <p>With FundRequest, users can request and reward any OSS development issue in just a few clicks. Developers can then propose their solution for a feature request or bugfix. Whoever comes up with the best solution gets the reward – it’s safe and simple!<br/>Find out just how easy it is to <a class="cta-btn" href="{{ site.baseurl }}{% link howitworks.html %}">Fund a Request</a>.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            {% include twocols.html %}
+            {% include participate.html %}
+      </div>
+
+      {% include footer.html %}
+
+    </div>
+
+  </body>
+
+</html>
