@@ -1,8 +1,8 @@
 # Site settings
 title: FundRequest
-email: your-email@domain.com
+email: info@fundrequest.io
 description: > # this means to ignore newlines until "baseurl:"
-  FundRequest 2.0.
+  FundRequest - Boost open source
 baseurl: "/website2.0" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 twitter_username: fundrequest_io
