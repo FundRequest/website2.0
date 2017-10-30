@@ -35,13 +35,13 @@ jQuery( document ).ready(function() {
 
     // ========== SLIDER ========== //
 	jQuery(".img-slider").lightSlider({
-        loop:true,
+        loop:false,
         auto: true,
         speed: 600,
         pause: 6000,
         keyPress:true,
         item: 1,
-        controls: true,
+        controls: false,
         pager: false,
     });
 
