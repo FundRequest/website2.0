@@ -14,9 +14,11 @@ jQuery( document ).ready(function() {
 		smoothScrolling: false,
 		mobileDeceleration: 0.004
 	});
-	setTimeout(function () {
-	  skrollr.get().refresh();
-	}, 0);
+    if (!s.isMobile()) {
+    	setTimeout(function () {
+    	  skrollr.get().refresh();
+    	}, 0);
+    }
 
     if (s.isMobile()) {
         s.destroy();
