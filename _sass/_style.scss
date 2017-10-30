@@ -1009,11 +1009,16 @@ footer {
 		ul {
 			margin-bottom: 10px;
 			li {
+				vertical-align: top;
 				display: inline-block;
 				a {
 					color: #fff;
 					font-size: 30px;
 					padding: 0 10px;
+				}
+
+				img {
+					display: inline-block;
 				}
 			}
 		}
@@ -1223,6 +1228,12 @@ footer {
 	}
 	footer {
 		text-align: center;
+
+		.socials {
+			ul li a {
+				padding: 0 6px;
+			}
+		}
 	}
 }
 @media screen and (max-width: 600px){
