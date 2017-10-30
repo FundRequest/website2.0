@@ -1098,6 +1098,7 @@ footer {
     .navbar-collapse {
         box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
     }
+.headroom--not-top .navbar-header .navbar-brand:link img, .headroom--not-top .navbar-header .navbar-brand:visited img, .headroom--not-top .navbar-header .navbar-brand:active img { margin-top: 0px;}
     .navbar-collapse.collapse {
         display: none!important;
     }
