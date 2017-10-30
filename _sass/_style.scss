@@ -1236,6 +1236,11 @@ footer {
 			}
 		}
 	}
+
+	.contactform {
+		height: auto;
+		min-height: 800px;
+	}
 }
 @media screen and (max-width: 600px){
 	body, html {
