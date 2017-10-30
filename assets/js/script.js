@@ -16,11 +16,12 @@ jQuery( document ).ready(function() {
 	});
     if (!s.isMobile()) {
     	setTimeout(function () {
-    	  skrollr.get().refresh();
-    	}, 0);
+    	  s.refresh();
+    	}, 01000);
     }
 
-    if (s.isMobile()) {
+    if (s.isMobile() || 
+    	("safari"==platform.name.toLowerCase()&&"os x"==platform.os.family.toLowerCase())) {
         s.destroy();
     }
 
