@@ -11,6 +11,7 @@ body, html {
 }
 #skrollr-body {
 	overflow-x: hidden;
+	overflow-y: hidden;
 }
 a.knop:link,
 a.knop:active,
@@ -1153,6 +1154,9 @@ footer {
 	}
 }
 @media screen and (max-width: 767px){
+	.nobg-mobile {
+		background-image: none !important;
+		background-color: #e4e4e4; }
 	.header .hidden-lg .cta-block { left: 50%; }
 	.header-ctaright .hidden-lg .playbtn { right: 60%; }
 	.gettingstarted {

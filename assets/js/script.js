@@ -8,23 +8,6 @@ jQuery( document ).ready(function() {
 	});
 	headroom.init();
 
-	// ========== SKROLLR - PARALLAX ========== //
-	var s = skrollr.init({
-		forceHeight: false,
-		smoothScrolling: false,
-		mobileDeceleration: 0.004
-	});
-    if (!s.isMobile()) {
-    	setTimeout(function () {
-    	  s.refresh();
-    	}, 01000);
-    }
-
-    if (s.isMobile() || 
-    	("safari"==platform.name.toLowerCase()&&"os x"==platform.os.family.toLowerCase())) {
-        s.destroy();
-    }
-
 	// ========== SAME HEIGHT ========== //
     jQuery('.text-columns .row').each(function() {
         jQuery(this).children('.sameHeight').matchHeight({});
@@ -77,4 +60,21 @@ jQuery( document ).ready(function() {
         }
       });
     });
+
+	// ========== SKROLLR - PARALLAX ========== //
+	var s = skrollr.init({
+		forceHeight: false,
+		smoothScrolling: false,
+		mobileDeceleration: 0.004
+	});
+    if (!s.isMobile()) {
+    	setTimeout(function () {
+    	  s.refresh();
+    	}, 01000);
+    }
+
+    if (s.isMobile() || 
+    	("safari"==platform.name.toLowerCase()&&"os x"==platform.os.family.toLowerCase())) {
+        s.destroy();
+    }
 });
