@@ -9,7 +9,7 @@ jQuery( document ).ready(function() {
 	headroom.init();
 
 	// ========== SKROLLR - PARALLAX ========== //
-	skrollr.init({
+	var s = skrollr.init({
 		forceHeight: false,
 		smoothScrolling: false,
 		mobileDeceleration: 0.004
@@ -17,6 +17,10 @@ jQuery( document ).ready(function() {
 	setTimeout(function () {
 	  skrollr.get().refresh();
 	}, 0);
+
+    if (s.isMobile()) {
+        s.destroy();
+    }
 
 	// ========== SAME HEIGHT ========== //
     jQuery('.text-columns .row').each(function() {
