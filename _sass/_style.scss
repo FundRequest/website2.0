@@ -1192,7 +1192,21 @@ footer {
 			transform: none;
 		}
 	}
+	.textcolumns {
+		min-height: auto;
+		height: 100%;
+		padding: 100px 0;
+		.vertical-align {
+			position: static;
+			top: auto;
+			-webkit-transform: none;
+			-ms-transform: none;
+			transform: none;
+		}
+
+	}
 	footer {
+		margin-top: 130px;
 		text-align: center;
 	}
 }
@@ -1327,6 +1341,7 @@ footer {
 @media screen and (max-width: 480px){
 	body, html {
 		font-size: 14px;
+		line-height: 1.3em;
 	}
 	h1, h2 {
 		font-size: 30px;
@@ -1353,7 +1368,7 @@ footer {
 				height: 260px;
 				width: 260px;
 				left: 50%;
-				top: 45%;
+				top: 50%;
 				margin-left: -70px;
 			}
 			.cta-block:before {
