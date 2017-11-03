@@ -15,7 +15,7 @@ jQuery( document ).ready(function() {
     jQuery('.team .row').each(function() {
         jQuery(this).children('.sameHeight').matchHeight({});
     });
-
+    jQuery('.engage .row .sameHeight').matchHeight({});
     // ========== SLIDER ========== //
 	jQuery(".img-slider").lightSlider({
         loop:false,
