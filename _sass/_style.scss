@@ -404,14 +404,15 @@ ul.points {
 				margin-top: 0;
 			    border: 2px solid #fff;
 			    display: inline-block;
-			    height: 50px;
-			    line-height: 46px;
+			    line-height: 26px;
 			    padding-left: 20px;
 			    padding-right: 20px;
 			    background-color: #40a6da;
 			    color: #ffffff;
 			    -webkit-transition: all 0.35s ease-in-out;
     			transition: all 0.35s ease-in-out;
+    			padding-top: 10px;
+    			padding-bottom: 10px;
 
 			    &:hover {
 			    	background-color: #ffffff;
@@ -420,8 +421,6 @@ ul.points {
 	    			transition: all 0.35s ease-in-out;
 			    }
 			}
-
-
 		}
 	}
 	.cta-block:before {
