@@ -17,7 +17,7 @@ pagina: Business
       <div class="parallax-wrapper">
 
 	      <section id="slide-1" class="header header-ctaright">
-	        <div class="bg-image" style="background-image: url('assets/img/header-home.jpg');"
+	        <div class="bg-image" style="background-image: url('assets/img/header-business.jpg');"
 	        data-top="background-position: 50% 0px;" data-center-bottom="background-position: 50% -50px;" data-top-bottom="background-position: 50% -100px;" data-anchor-target="#slide-1"></div>
 	        <div class="container">
 	          <div class="row">
@@ -25,10 +25,13 @@ pagina: Business
                     <h2>BUSINESS,<br/>WHAT’S IN IT FOR YOU?</h2>
                     <p>As a business, you want to see improvements made to the software tools you use, but you might not have the budget to cover a full-fledged customer service.</p>
                     <br />
-                    <p><a href="#" class='scrolltonext'>Discover what Fundrequest can do for you.</a></p>
+                    <p><a href="#" class='scrolltonext smallBtn'>Discover what Fundrequest can do for you</a></p>
 	            </div>
 	          </div>
 	        </div>
+	        {% assign ctaimage = 'assets/img/header-business-cta.png' %}
+	        {% assign ctaflipimage = 'assets/img/header-business-flip-cta.png' %}
+
             {% include ctasquare.html %}
 	      </section>
 
@@ -53,7 +56,7 @@ pagina: Business
                         </div>
                         <div class="col-md-6">
                             <ul class="img-slider">
-                                <li><img src="assets/img/fundrequest-content-about.png" alt="" /></li>
+                                <li><img src="assets/img/fundrequest-content-about-new.png" alt="" /></li>
                             </ul>
                         </div>
                     </div>
@@ -77,11 +80,11 @@ pagina: Business
                         </div>
                         <div class="col-md-6">
                             <ul class="points">
-                                <li><b>Create a request</b> based on a feature you want to see or a bug you’ve encountered.</li>
-                                <li><b>Add a reward</b> to the request by clicking the handy “fund button”.<br/>The amount is sent to the Ethereum blockchain for validation. Then a smart contract is generated for the specific issue.</li>
-                                <li>The smart contract records your account and funding amount, and updates the total balance of the issue request.</li>
-                                <li>All proposed solutions get evaluated, and <b>the most suitable solution is determined.</b></li>
-                                <li>After the issue is solved, the funds are transferred and the <b>developer gets paid.</b> If no valid solution comes forth, the ticket can be closed, and you can use the “reclaim fund button” to <b>withdraw the reward</b>.</li>
+								<li><b>Create a request</b> based on a feature you want to see or a bug you’ve encountered.</li>
+								<li><b>Add a reward</b> to the request by clicking the “fund button”.</li>
+								<li><b>The smart contract is generated</b>: The amount is sent to the Ethereum blockchain for validation, and a smart contract is generated for the specific issue.</li>
+								<li><b>The most suitable solution is determined</b>.</li>
+								<li><b>The developer gets paid</b>: After the issue is solved, all funds are transferred to the contributor who offered the best solution.</li>
                             </ul>
                             <a class="smallBtn" href="howitworks">Learn more</a>
                         </div>

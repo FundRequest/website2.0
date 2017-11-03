@@ -300,6 +300,8 @@ ul.points {
 	height: 800px;
 	min-height: 800px;
 	height: 100vh;
+	color: #000;
+	line-height: 1.4em;
 
 	.bg-image {
 		height: 100%;
@@ -399,10 +401,23 @@ ul.points {
 				margin: 0 auto;
 			}
 			.cta-btn {
-				margin-top: 10px;
-				color: #fff;
-				border-bottom: 2px solid #fff;
+				margin-top: 0;
+			    border: 2px solid #fff;
+			    display: inline-block;
+			    height: 50px;
+			    line-height: 46px;
+			    padding-left: 20px;
+			    padding-right: 20px;
+			    background-color: #40a6da;
+			    color: #ffffff;
+
+			    &:hover {
+			    	background-color: #ffffff;
+			    	color: #40a6da;
+			    }
 			}
+
+
 		}
 	}
 	.cta-block:before {
@@ -758,6 +773,10 @@ ul.points {
 			}
 		}
 	}
+	a.smallBtn {
+		margin-left: 5px;
+		margin-right: 5px;
+	}
 }
 
 /* ========== TEAM ========== */
@@ -1000,7 +1019,7 @@ footer {
 	}
 	.socials {
 		height: 260px;
-		margin-top: -105px;
+		margin-top: -140px;
 		position: relative;
 		z-index: 1;
 
@@ -1009,7 +1028,7 @@ footer {
 			margin-bottom: 5px;
 		}
 		ul {
-			margin-bottom: 10px;
+			margin-bottom: 0px;
 			li {
 				vertical-align: top;
 				display: inline-block;
@@ -1029,6 +1048,8 @@ footer {
 			text-transform: uppercase;
 			font-family: $specialTextSemibold;
 			font-size: 16px;
+			margin-top: 10px;
+			display: block;
 		}
 	}
 	.row { position: relative; }
@@ -1366,6 +1387,9 @@ footer {
 	}
 	footer h4 {
 		font-size: 22px;
+	}
+	footer .socials {
+	    margin-top: -132px;
 	}
 	footer ul li {
 		padding: 5px 0;
