@@ -410,10 +410,14 @@ ul.points {
 			    padding-right: 20px;
 			    background-color: #40a6da;
 			    color: #ffffff;
+			    -webkit-transition: all 0.35s ease-in-out;
+    			transition: all 0.35s ease-in-out;
 
 			    &:hover {
 			    	background-color: #ffffff;
 			    	color: #40a6da;
+				    -webkit-transition: all 0.35s ease-in-out;
+	    			transition: all 0.35s ease-in-out;
 			    }
 			}
 
