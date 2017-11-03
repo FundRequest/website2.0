@@ -1,3 +1,2 @@
-# FundRequest Website 2.0
+## FundRequest Website 2.0 <img align="right" src="https://fundrequest.io/assets/img/logo.png" height="30px" />
 
-Working on a new and improved webiste, currently a work in progress...
