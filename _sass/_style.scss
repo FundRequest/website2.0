@@ -1080,8 +1080,9 @@ footer {
 	.header {
 		height: auto;
 		padding-top: 200px;
+		min-height: auto;
 
-		.col-lg-5.col-md-7.col-sm-8.vertical-align {
+		.col-sm-8.vertical-align {
 			top: auto;
 			-webkit-transform: none;
 			-ms-transform: none;
@@ -1294,6 +1295,13 @@ footer {
 	#contactForm {
 		padding-bottom: 80px;
 	}
+	.header {
+		.hidden-lg {
+			.cta-block {
+				top: 60%;
+			}
+		}
+	}
 }
 @media screen and (max-width: 600px){
 	body, html {
@@ -1320,7 +1328,7 @@ footer {
 	.header {
 		.hidden-lg {
 			.cta-huls {
-				height: 250px;
+				height: 290px;
 
 				.cta-image {
 					background-size: 150%;
@@ -1329,16 +1337,27 @@ footer {
 			.cta-block {
 				height: 280px;
 				width: 280px;
-				left: 50%;
-				top: 45%;
+				left: 60%;
+				top: 65%;
 				margin-left: -80px;
+				.cta-inner {
+					.cta-btn {
+					    line-height: 22px;
+					    padding-left: 15px;
+					    padding-right: 15px;
+					    padding-top: 5px;
+					    padding-bottom: 5px;
+					    max-width: 150px;
+					    font-size: 16px;
+					}
+				}
 			}
 			.cta-block:before {
 				width: 185px;
 				height: 185px; 
 			}
 			.playbtn {
-				bottom: 87px;
+				bottom: 52px;
 			}
 		}
 	}
@@ -1455,8 +1474,8 @@ footer {
 			.cta-block {
 				height: 260px;
 				width: 260px;
-				left: 50%;
-				top: 50%;
+				left: 60%;
+				top: 62%;
 				margin-left: -70px;
 			}
 			.cta-block:before {
@@ -1493,8 +1512,7 @@ footer {
 	}
 	#participate {
 		height: 100%;
-		padding: 80px 0;
-		min-height: 600px;
+		padding: 80px 0 0;
 		
 		.vertical-align {
 			position: static;
