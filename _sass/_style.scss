@@ -1078,9 +1078,28 @@ footer {
 	}
 	.navbar-right { margin-right: 0 !important; }
 	.header {
-		.container {
-			height: 67.5%;
+		height: auto;
+		padding-top: 200px;
+
+		.col-lg-5.col-md-7.col-sm-8.vertical-align {
+			top: auto;
+			-webkit-transform: none;
+			-ms-transform: none;
+			transform: none;
+			opacity: 1 !important;
+			position: relative;
 		}
+		.cta-btn {
+			max-width: 200px;
+		}
+	}
+	.header .hidden-lg .cta-huls {
+		position: relative;
+		opacity: 1 !important;
+		padding-top: 100px;
+	}
+	.header .hidden-lg .playbtn {
+		bottom: 84px;
 	}
 	.notop .cta-huls .cta-image {
 	    margin-top: 0;
