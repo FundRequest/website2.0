@@ -1071,6 +1071,21 @@ footer {
     	z-index: 0;
 	}
 }
+.footer_references { 
+	background-color: #40a6da;
+
+	#slider_references {
+		margin: 0 auto;
+		img {
+			max-height: 30px;
+		}
+	}
+
+	.lSSlideOuter {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+}
 
 @media screen and (max-width: 1200px){
 	.headroom--top .navbar-header .navbar-brand:link img, .headroom--top .navbar-header .navbar-brand:visited img, .headroom--top .navbar-header .navbar-brand:active img {
@@ -1540,3 +1555,10 @@ b { font-family: 'Whitney Bold';}
 
 .skrollr-safari .skrollable {transition: all 0.4s linear;}
 .marginBtn { margin-left: 10px; margin-right: 10px;}
+
+.cS-hidden {
+    height: 1px;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    overflow: hidden;
+}

@@ -77,4 +77,14 @@ jQuery( document ).ready(function() {
     	("safari"==platform.name.toLowerCase()&&"os x"==platform.os.family.toLowerCase())) {
         s.destroy();
     }
+
+    jQuery('#slider_references').lightSlider({
+        autoWidth:true,
+        loop:false,
+        slideMargin:20,
+        controls: false,
+        onSliderLoad: function() {
+            jQuery('#slider_references').removeClass('cS-hidden');
+        } 
+    }); 
 });
