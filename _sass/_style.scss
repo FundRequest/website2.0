@@ -1078,9 +1078,29 @@ footer {
 	}
 	.navbar-right { margin-right: 0 !important; }
 	.header {
-		.container {
-			height: 67.5%;
+		height: auto;
+		padding-top: 200px;
+		min-height: auto;
+
+		.col-sm-8.vertical-align {
+			top: auto;
+			-webkit-transform: none;
+			-ms-transform: none;
+			transform: none;
+			opacity: 1 !important;
+			position: relative;
 		}
+		.cta-btn {
+			max-width: 200px;
+		}
+	}
+	.header .hidden-lg .cta-huls {
+		position: relative;
+		opacity: 1 !important;
+		padding-top: 100px;
+	}
+	.header .hidden-lg .playbtn {
+		bottom: 84px;
 	}
 	.notop .cta-huls .cta-image {
 	    margin-top: 0;
@@ -1275,6 +1295,13 @@ footer {
 	#contactForm {
 		padding-bottom: 80px;
 	}
+	.header {
+		.hidden-lg {
+			.cta-block {
+				top: 60%;
+			}
+		}
+	}
 }
 @media screen and (max-width: 600px){
 	body, html {
@@ -1301,7 +1328,7 @@ footer {
 	.header {
 		.hidden-lg {
 			.cta-huls {
-				height: 250px;
+				height: 290px;
 
 				.cta-image {
 					background-size: 150%;
@@ -1310,16 +1337,27 @@ footer {
 			.cta-block {
 				height: 280px;
 				width: 280px;
-				left: 50%;
-				top: 45%;
+				left: 60%;
+				top: 65%;
 				margin-left: -80px;
+				.cta-inner {
+					.cta-btn {
+					    line-height: 22px;
+					    padding-left: 15px;
+					    padding-right: 15px;
+					    padding-top: 5px;
+					    padding-bottom: 5px;
+					    max-width: 150px;
+					    font-size: 16px;
+					}
+				}
 			}
 			.cta-block:before {
 				width: 185px;
 				height: 185px; 
 			}
 			.playbtn {
-				bottom: 87px;
+				bottom: 52px;
 			}
 		}
 	}
@@ -1436,8 +1474,8 @@ footer {
 			.cta-block {
 				height: 260px;
 				width: 260px;
-				left: 50%;
-				top: 50%;
+				left: 60%;
+				top: 62%;
 				margin-left: -70px;
 			}
 			.cta-block:before {
@@ -1474,8 +1512,7 @@ footer {
 	}
 	#participate {
 		height: 100%;
-		padding: 80px 0;
-		min-height: 600px;
+		padding: 80px 0 0;
 		
 		.vertical-align {
 			position: static;
@@ -1496,7 +1533,7 @@ b { font-family: 'Whitney Bold';}
 		font-size: 111px; 
 		&.icon-icon-telegram { color: #1ab5e7;}
 	}
-	.icon-slack { font-size: 111px;}
+	.icon-rocketchat { font-size: 111px;}
 }
 .greybackground { background-color: #f2f2f2; }
 .thankyou { display: none; text-align: center;margin-bottom: 15px; color: #19aa45;font-weight: bold;}
